@@ -10,6 +10,10 @@ certifi==2020.4.5.1       # via requests
 chardet==3.0.4            # via requests
 django==3.0.5             # via -r requirements.in, djangorestframework
 djangorestframework==3.11.0  # via -r requirements.in
+djangorestframework-simplejwt
+isort
+flake8
+django-cors-headers
 idna==2.9                 # via requests
 importlib-metadata==1.6.0  # via pluggy, pytest
 more-itertools==8.2.0     # via pytest
@@ -26,3 +30,5 @@ sqlparse==0.3.1           # via django
 urllib3==1.25.9           # via requests
 wcwidth==0.1.9            # via pytest
 zipp==3.1.0               # via importlib-metadata
+pytils==0.3
+django-filter==2.3.0
